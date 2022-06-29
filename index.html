@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="styles.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
@@ -9,20 +10,20 @@
 
 <body>
   <main class="container">
-    <div class="card">
-      <img src="images/illustration-hero.svg" alt="illustration">
-      <div class="info">
-        <h1>Order Summary</h1>
-        <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
-        <div class="plan">
-          <img src="images/icon-music.svg" alt="music-icon">
+    <img class="main-img" src="images/illustration-hero.svg" alt="illustration">
+    <div class="info">
+      <h1>Order Summary</h1>
+      <p id="info-info">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+      <div class="plan">
+        <img src="images/icon-music.svg" alt="music-icon">
+        <div class="plan-price">
           <h3>Annual Plan</h3>
           <p>$59.99/year</p>
-          <p>Change</p>
         </div>
-        <button>Proceed to Payment</button>
-        <p>Cancel Order</p>
+        <a>Change</a>
       </div>
+      <button>Proceed to Payment</button>
+      <p id="cancel">Cancel Order</p>
     </div>
   </main>
 </body>
